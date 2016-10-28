@@ -60,3 +60,15 @@ h5 {
 #pageOutput {
   margin-top: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  #firstImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    display: none;
+  }
+}
