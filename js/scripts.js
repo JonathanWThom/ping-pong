@@ -6,8 +6,13 @@ function isValid(userInput) {
 } // isValid function
 
 function pingPong(userInput) {
+  var outputArray = [];
 
+  for (var i = 0; i <= userInput; i++) {
+    outputArray.push(i);
+  }
 
+  return outputArray;
 
 } // pingPong function
 
@@ -25,7 +30,7 @@ $(document).ready(function() {
     if (validInput === false) {
       alert("Please enter a positive integer.")
     } else {
-      $("#pageOutput").text("This works");
+      $("#pageOutput").append("<li>" + output + "</li>");
     }
 
   }); // submit
