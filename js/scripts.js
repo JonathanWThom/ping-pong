@@ -19,6 +19,9 @@ function pingPong(userInput) {
     } else if (number % 5 === 0) {
       var five = outputNumbers.indexOf(number);
       outputNumbers[five] = "pong";
+    } else if (number % 3 === 0) {
+      var three = outputNumbers.indexOf(number);
+      outputNumbers[three] = "ping";
     }
   });
 
