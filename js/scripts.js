@@ -25,10 +25,11 @@ function pingPong(userInput) {
     }
   });
 
-  outputList = ""
+  var outputList = ""
   for (var index = 0; index < outputNumbers.length; index++) {
     outputList += "<li>" + outputNumbers[index] + "</li>";
   }
+
   return outputList;
 
 } // pingPong function

@@ -2,6 +2,12 @@ body {
   background-color: lightgrey;
 }
 
+img {
+  width: 10%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .container {
   width: 100%;
 }
@@ -43,8 +49,10 @@ h1 {
 
 .subsections {
   color: #ffffb3;
+  font-size: 20px;
 }
 
 h5 {
   color: white;
+  padding-bottom: 10px;
 }
