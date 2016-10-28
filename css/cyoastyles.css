@@ -1,5 +1,5 @@
 body {
-  background-color: darkgrey;
+  background-color: #191919;
   color: white;
 }
 
@@ -14,7 +14,7 @@ img {
 }
 
 #header {
-  background-color: #80aaff;
+  background-color: #081D50;
   text-align: center;
   padding: 40px 0 50px 0;
 }
@@ -25,7 +25,7 @@ h1 {
 
 
 #sidebar {
-  background-color: #800080;
+  background-color: #88386F;
   padding-bottom: 100%;
   padding-left: 30px;
   padding-top: 15px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .btn {
-  background-color: black;
+  background-color: #414141;
 }
 
 #mainBody h2 {
@@ -49,7 +49,7 @@ h1 {
 }
 
 .subsections {
-  color: #80aaff;
+  color: #081D50;
   font-size: 20px;
 }
 
@@ -67,5 +67,9 @@ h5 {
 }
 
 a {
-  color: #ff9933;
+  color: #D58946;
+}
+
+#pageOutput {
+  margin-top: 25px;
 }

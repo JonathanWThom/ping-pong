@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: #E6E6E6;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 #header {
-  background-color: #ffffb3;
+  background-color: #F7E2AF;
   text-align: center;
   padding: 40px 0 50px 0;
 }
@@ -24,7 +24,7 @@ h1 {
 
 
 #sidebar {
-  background-color: #8CCA7A;
+  background-color: #77C790;
   padding-bottom: 100%;
   padding-left: 30px;
   padding-top: 15px;
@@ -40,7 +40,7 @@ h1 {
 }
 
 .btn {
-  background-color: darkgrey;
+  background-color: #BEBEBE;
 }
 
 #mainBody h2 {
@@ -48,11 +48,15 @@ h1 {
 }
 
 .subsections {
-  color: #ffffb3;
+  color: #F7E2AF;
   font-size: 20px;
 }
 
 h5 {
   color: white;
   padding-bottom: 10px;
+}
+
+#pageOutput {
+  margin-top: 25px;
 }
