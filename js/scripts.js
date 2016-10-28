@@ -36,15 +36,19 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    $("#userOutput").empty();
+    $("#pageOutput").empty();
     var userInput = parseInt($("#userNumber").val());
     var validInput = isValid(userInput);
     var output = pingPong(userInput);
+    var list = "";
 
     if (validInput === false) {
       alert("Please enter a positive integer.")
     } else {
-      $("#pageOutput").text(output);
+        for (var index = 0; index < output.length; index++) {
+          list += "<li>"+output[index]+"</li>";
+        }
+      $("#pageOutput").append(list);
     }
 
   }); // submit
