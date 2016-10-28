@@ -36,6 +36,7 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
+    $("#userOutput").empty();
     var userInput = parseInt($("#userNumber").val());
     var validInput = isValid(userInput);
     var output = pingPong(userInput);
@@ -43,7 +44,7 @@ $(document).ready(function() {
     if (validInput === false) {
       alert("Please enter a positive integer.")
     } else {
-      $("#pageOutput").append("<li>" + output + "</li>");
+      $("#pageOutput").text(output);
     }
 
   }); // submit
