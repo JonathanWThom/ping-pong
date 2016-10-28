@@ -6,13 +6,21 @@ function isValid(userInput) {
 } // isValid function
 
 function pingPong(userInput) {
-  var outputArray = [];
+  var outputNumbers = [];
 
   for (var i = 0; i <= userInput; i++) {
-    outputArray.push(i);
+    outputNumbers.push(i);
   }
 
-  return outputArray;
+  outputNumbers.forEach(function(number) {
+    if (number % 15 === 0 && number != 0) {
+      console.log("if statement is running");
+      var fifteen = outputNumbers.indexOf(number);
+      outputNumbers[fifteen] = "pingpong";
+    }
+  });
+
+  return outputNumbers;
 
 } // pingPong function
 
