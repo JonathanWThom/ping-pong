@@ -1,12 +1,12 @@
 # _Ping Pong_
 
-#### _Web application that returns numbers to users, replacing some with "ping," "pong," or "pingpong." 10.28.16_
+#### _Web application that returns numbers to users, replacing some with "ping," "pong," or "pingpong." There is also a secondary page where users can submit their own parameters. 10.28.16_
 
 #### By _**Jonathan Thom**_
 
 ## Description
 
-_The user inputs any positive integer and is then returned a list of all positive integers less than or equal to that number. Every number divisible by 3 is replaced with "ping," every number divisible by 5 is replaced with "pong," and every number divisible by both 3 and 5 is replaced with "pingpong."_
+_The user inputs any positive integer and is then returned a list of all positive integers less than or equal to that number. Every number divisible by 3 is replaced with "ping," every number divisible by 5 is replaced with "pong," and every number divisible by both 3 and 5 is replaced with "pingpong." There is also a linked "Choose Your Own Adventure" page where in addition to setting their top number, users can set the divisions (e.g. 4 and 17 instead of 3 and 5) as well as their placeholders ("Java" and "script" instead of "ping" and "pong")._
 
 ## Setup/Installation Requirements
 
