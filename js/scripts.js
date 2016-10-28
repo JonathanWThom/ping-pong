@@ -25,7 +25,7 @@ function pingPong(userInput) {
     }
   });
 
-  var outputList = ""
+  var outputList = "";
   for (var index = 0; index < outputNumbers.length; index++) {
     outputList += "<li>" + outputNumbers[index] + "</li>";
   }

@@ -7,7 +7,16 @@ function isValid(userInput, firstDivisor, secondDivisor) {
   } else if (secondDivisor < 1) {
     return false;
   }
+  // If no divisors inputted, just counts up by integers.
 } // isValid function
+
+function emptyFields(firstDivisorName, secondDivisorName) {
+  if (firstDivisorName === "") {
+    return false;
+  } else if (secondDivisorName === "") {
+    return false;
+  }
+}
 
 function pingPong(userInput, firstDivisor, secondDivisor, firstDivisorName, secondDivisorName) {
   var outputNumbers = [];
@@ -31,7 +40,7 @@ function pingPong(userInput, firstDivisor, secondDivisor, firstDivisorName, seco
     }
   });
 
-  var outputList = ""
+  var outputList = "";
   for (var index = 0; index < outputNumbers.length; index++) {
     outputList += "<li>" + outputNumbers[index] + "</li>";
   }
@@ -56,14 +65,16 @@ $(document).ready(function() {
     var secondDivisorName = $("#divisorTwoName").val();
 
     var validInput = isValid(userInput, firstDivisor, secondDivisor);
+    var fieldsFull = emptyFields(firstDivisorName, secondDivisorName);
     var output = pingPong(userInput, firstDivisor, secondDivisor, firstDivisorName, secondDivisorName);
 
     if (validInput === false) {
       alert("Please only use positive integers");
+    } else if (fieldsFull === false) {
+      alert("Please fill in all fields");
     } else {
       $("#pageOutput").append(output);
     }
-
 
   }); // submit
 }); // document
