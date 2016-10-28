@@ -6,7 +6,7 @@
 
 ## Description
 
-_The user inputs any positive integer and is then returned a list of all positive integers less than or equal to that number. Every number divisible by 3 is replaced with "ping," every number divisible by 5 is replaced with "pong," and every number divisible by both 3 and 5 is replaced with "pingpong." There is also a linked "Choose Your Own Adventure" page where in addition to setting their top number, users can set the divisions (e.g. 4 and 17 instead of 3 and 5) as well as their placeholders ("Java" and "script" instead of "ping" and "pong")._
+_The user inputs any positive integer and is then returned a list of all positive integers less than or equal to that number. Every number divisible by 3 is replaced with "ping," every number divisible by 5 is replaced with "pong," and every number divisible by both 3 and 5 is replaced with "pingpong." There is also a linked "Choose Your Own Adventure" page where in addition to setting their top number, users can set the divisors (e.g. 4 and 17 instead of 3 and 5) as well as their placeholders ("java" and "script" instead of "ping" and "pong")._
 
 ## Setup/Installation Requirements
 
@@ -52,8 +52,8 @@ _The user inputs any positive integer and is then returned a list of all positiv
   * <b>Example Output:</b> "1, ping, 3, ping, pong, ping, 7, ping, 9, pingpong, 11...etc."
 
 10. On second, linked page, user can enter what they'd like to name their placeholders. All previous steps are repeated. Placeholders must be entered.
-  * <b>Example Input:</b> Divisor 1 = 2, Divisor 2 = 5, Divisor 1 Name = "Java", Divisor 2 = "script"
-  * <b>Example Output:</b> "1, Java, 3, Java, script, Java, 7, Java, 9, Javascript, 11...etc."
+  * <b>Example Input:</b> Divisor 1 = 2, Divisor 2 = 5, Divisor 1 Name = "java", Divisor 2 = "script"
+  * <b>Example Output:</b> "1, java, 3, java, script, java, 7, java, 9, javascript, 11...etc."
 
 ## Support and contact details
 
