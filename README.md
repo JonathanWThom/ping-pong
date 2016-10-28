@@ -47,6 +47,14 @@ _The user inputs any positive integer and is then returned a list of all positiv
   * <b>Example Input:</b> 5, submit, 4, submit
   * <b>Example Output:</b> "1, 2, ping, 4, 5", then, "1, 2, ping, 4"_
 
+9. On second, linked page, user can enter what divisors they'd like to use. All previous steps are repeated.
+  * <b>Example Input:</b> Divisor 1 = 2, Divisor 2 = 5
+  * <b>Example Output:</b> "1, ping, 3, ping, pong, ping, 7, ping, 9, pingpong, 11...etc."
+
+10. On second, linked page, user can enter what they'd like to name their placeholders. All previous steps are repeated.
+  * <b>Example Input:</b> Divisor 1 = 2, Divisor 2 = 5, Divisor 1 Name = "Java", Divisor 2 = "script"
+  * <b>Example Output:</b> "1, Java, 3, Java, script, Java, 7, Java, 9, Javascript, 11...etc."
+
 ## Support and contact details
 
 _Contact Jonathan at: jonathan.thom1990@gmail.com_

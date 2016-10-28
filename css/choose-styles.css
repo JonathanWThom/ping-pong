@@ -1,5 +1,6 @@
 body {
-  background-color: lightgrey;
+  background-color: darkgrey;
+  color: white;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 }
 
 #header {
-  background-color: #ffffb3;
+  background-color: #80aaff;
   text-align: center;
   padding: 40px 0 50px 0;
 }
@@ -24,7 +25,7 @@ h1 {
 
 
 #sidebar {
-  background-color: #8CCA7A;
+  background-color: #800080;
   padding-bottom: 100%;
   padding-left: 30px;
   padding-top: 15px;
@@ -40,7 +41,7 @@ h1 {
 }
 
 .btn {
-  background-color: darkgrey;
+  background-color: black;
 }
 
 #mainBody h2 {
@@ -48,11 +49,23 @@ h1 {
 }
 
 .subsections {
-  color: #ffffb3;
+  color: #80aaff;
   font-size: 20px;
 }
 
 h5 {
   color: white;
   padding-bottom: 10px;
+}
+
+.form-group {
+  width: 250px;
+}
+
+.questionMarks {
+  color: red;
+}
+
+a {
+  color: #ff9933;
 }
