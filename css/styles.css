@@ -18,9 +18,10 @@ h1 {
 
 
 #sidebar {
-  background-color: lightgreen;
+  background-color: #8CCA7A;
   padding-bottom: 100%;
   padding-left: 30px;
+  padding-top: 15px;
 }
 
 #sidebar, #mainBody {
@@ -32,8 +33,12 @@ h1 {
   padding-left: 40px;
 }
 
+.btn {
+  background-color: darkgrey;
+}
+
 #mainBody h2 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .subsections {
