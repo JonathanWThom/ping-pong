@@ -4,7 +4,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/choose-scripts.js"></script>
     <title>Ping Pong</title>
   </head>
   <body>
@@ -28,20 +28,36 @@
 
         <div id="mainBody" class="col-sm-8">
           <h2>Let's play!</h2>
-          <h4>Rules:</h4>
-          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <h4>Choose your own adventure:</h4>
+          <p>The page will count up to your number from 1 with the following exceptions:</p>
           <ol>
-            <li>Numbers divisible by 3 become "ping"</li>
-            <li>Numbers divisible by 5 become "pong"</li>
-            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+            <li>You choose the first number to be divisible by and what they will be come.</li>
+            <li>You choose the second number to be divisible by and what that will become.</li>
+            <li>Numbers divisible by those two numbers become a combo of your words!</li>
           </ol>
 
           <form id="initial">
             <div class="form-inline">
-              <label>Enter your number here:</label>
+              <label>Enter number to count to here here:</label>
               <input id="userNumber" type="number" class="form-control">
-              <button type="submit" class="btn">Ping Pong!</button>
             </div> <!--form group-->
+            <div class="form-inline">
+              <label>Enter first divisor:</label>
+              <input id="divisorOne" type="number" class="form-control">
+            </div> <!--form group-->
+            <div class="form-inline">
+              <label>Enter first divisor name:</label>
+              <input id="divisorOneName" type="text" class="form-control">
+            </div> <!--form group-->
+            <div class="form-inline">
+              <label>Enter second divisor:</label>
+              <input id="divisorTwo" type="text" class="form-control">
+            </div> <!--form group-->
+            <div class="form-inline">
+              <label>Enter second divisor name:</label>
+              <input id="divisorTwoName" type="text" class="form-control">
+            </div> <!--form group-->
+            <button type="submit" class="btn">Ping Pong!</button>
           </form>
 
           <div id="pageOutput">
