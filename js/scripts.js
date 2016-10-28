@@ -1,7 +1,8 @@
 // Business Logic
 function isValid(userInput) {
-  
-
+  if (userInput < 1) {
+    return false;
+  }
 } // isValid function
 
 function pingPong(userInput) {
@@ -17,10 +18,15 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var userInput = $("#userNumber").val();
+    var userInput = parseInt($("#userNumber").val());
+    var validInput = isValid(userInput);
     var output = pingPong(userInput);
 
-    $("#pageOutput").text(output);
+    if (validInput === false) {
+      alert("Please enter a positive integer.")
+    } else {
+      $("#pageOutput").text("This works");
+    }
 
   }); // submit
 }); // document
