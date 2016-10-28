@@ -1,1 +1,25 @@
+body {
+  background-color: lightgrey;
+}
 
+.container {
+  width: 100%;
+}
+
+#header {
+  background-color: lightyellow;
+}
+
+#sidebar {
+  background-color: lightgreen;
+  padding-bottom: 100%;
+}
+
+#sidebar, #header {
+  padding-left: 30px;
+}
+
+#sidebar, #mainBody {
+  margin-top: 25px;
+  height: 100%;
+}
