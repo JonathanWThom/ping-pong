@@ -7,19 +7,39 @@ body {
 }
 
 #header {
-  background-color: lightyellow;
+  background-color: #ffffb3;
+  text-align: center;
+  padding: 40px 0 50px 0;
 }
+
+h1 {
+  font-size: 60px;
+}
+
 
 #sidebar {
   background-color: lightgreen;
   padding-bottom: 100%;
-}
-
-#sidebar, #header {
   padding-left: 30px;
 }
 
 #sidebar, #mainBody {
   margin-top: 25px;
-  height: 100%;
+}
+
+#mainBody {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+#mainBody h2 {
+  margin-top: 10px;
+}
+
+.subsections {
+  color: #ffffb3;
+}
+
+h5 {
+  color: white;
 }
