@@ -25,7 +25,12 @@ function pingPong(userInput) {
     }
   });
 
-  return outputNumbers;
+  //return outputNumbers;
+  outputList = ""
+  for (var index = 0; index < outputNumbers.length; index++) {
+    outputList += "<li>" + outputNumbers[index] + "</li>";
+  }
+  return outputList;
 
 } // pingPong function
 
@@ -40,16 +45,13 @@ $(document).ready(function() {
     var userInput = parseInt($("#userNumber").val());
     var validInput = isValid(userInput);
     var output = pingPong(userInput);
-    var list = "";
+    //var outputList = "";
 
     if (validInput === false) {
       alert("Please enter a positive integer.")
     } else {
-        for (var index = 0; index < output.length; index++) {
-          list += "<li>"+output[index]+"</li>";
-        }
-      $("#pageOutput").append(list);
-    }
+      $("#pageOutput").append(output);
+      }
 
   }); // submit
 }); // document
