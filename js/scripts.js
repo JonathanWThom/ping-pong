@@ -1,4 +1,4 @@
-// Business Logic
+////// Business Logic //////
 function isValid(userInput) {
   if (userInput < 1) {
     return false;
@@ -25,7 +25,6 @@ function pingPong(userInput) {
     }
   });
 
-  //return outputNumbers;
   outputList = ""
   for (var index = 0; index < outputNumbers.length; index++) {
     outputList += "<li>" + outputNumbers[index] + "</li>";
@@ -35,8 +34,7 @@ function pingPong(userInput) {
 } // pingPong function
 
 
-
-// User Interface Logic
+////// User Interface Logic //////
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
@@ -45,7 +43,6 @@ $(document).ready(function() {
     var userInput = parseInt($("#userNumber").val());
     var validInput = isValid(userInput);
     var output = pingPong(userInput);
-    //var outputList = "";
 
     if (validInput === false) {
       alert("Please enter a positive integer.")
