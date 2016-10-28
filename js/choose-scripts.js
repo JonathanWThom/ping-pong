@@ -22,12 +22,12 @@ function pingPong(userInput, firstDivisor, secondDivisor, firstDivisorName, seco
     if (number % (firstDivisor*secondDivisor) === 0) {
       var both = outputNumbers.indexOf(number);
       outputNumbers[both] = firstDivisorName + secondDivisorName;
-    } else if (number % secondDivisor === 0) {
-      var second = outputNumbers.indexOf(number);
-      outputNumbers[second] = secondDivisorName;
     } else if (number % firstDivisor  === 0) {
       var first = outputNumbers.indexOf(number);
       outputNumbers[first] = firstDivisorName;
+    } else if (number % secondDivisor === 0) {
+      var second = outputNumbers.indexOf(number);
+      outputNumbers[second] = secondDivisorName;
     }
   });
 

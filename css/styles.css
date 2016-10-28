@@ -56,3 +56,7 @@ h5 {
   color: white;
   padding-bottom: 10px;
 }
+
+.form-group {
+  width: 250px;
+}
